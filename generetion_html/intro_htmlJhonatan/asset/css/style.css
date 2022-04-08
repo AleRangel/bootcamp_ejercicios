@@ -1,0 +1,22 @@
+.textob{ /* Podremos invocar las clase con el signo del punto */
+    color: blue;
+    font-weight: bolder;
+}
+
+.saludo{
+    color: rgb(79, 20, 134);
+    font-weight: 800;
+}
+
+.saludo2{
+    color: rgb(5, 48, 48);
+}
+
+#saludoId{
+    font-weight: 800;
+}
+
+
+img{/*así tambien podremos llamar a un selector general */
+    width: 100px;
+}
