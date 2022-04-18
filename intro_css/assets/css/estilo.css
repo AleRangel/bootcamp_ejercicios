@@ -1,0 +1,38 @@
+.titulo{
+    text-align: center;
+}
+
+.container{
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.box1{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(245, 103, 240);
+}
+.box2 {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(225, 134, 81);
+    border: 2px solid rgb(143, 78, 52);
+    border-radius: 5px;
+}
+.box3{
+    width: 300px;
+    height: 30px;
+    border-left: 5px solid #7e1e91;
+}
+.box4{
+    width: 300px;
+    height: 30px;
+    border-top: 2px solid #7e1e91;
+    border-bottom: 2px solid #7e1e91;
+}
+
+
+

@@ -1,0 +1,68 @@
+/* SELECTOR UNIVERSAL */
+*{
+    background-color: #ffffff;
+    /*  !important --Permite aplicar le es estilo sin importar la especificidad  del elemento*/
+    
+}
+
+/* Selector de etiqueta 
+    selecciona un elemento de html */
+h1   { /* Aplica el estilo a todos las etiquetas de este tipo en html */
+        font-weight: bold;
+    
+}
+
+#forma{                                             
+    background-color: #a52a2a96;
+}
+
+.cuadro{    
+    width: 100px;
+    height: 100px;
+    background-color: #bdbdbd;
+    border: 2px solid #485aa1;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.cuadro {
+    background-color: aquamarine;
+}
+
+
+.cuadro  h4{
+        background-color: #7fffd4;
+}
+
+.color-texto {
+    color: #ffffff;
+    background-color: #242424;
+}
+
+
+/*  */
+
+.forma-clase{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.texto{
+    text-align: center;
+    line-height: 150px;
+}
+.textoP{
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 200;
+    
+}
+
+
+.border{
+    border:  3px  solid #000000;
+    border-top: 4px double #460000;
+    border-bottom: 3px solid #485aa1;
+}
