@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>HTML avanzado</title>
+</head>
+
+<body>
+      <nav>
+            <ul>
+                  <li><a href="#">Tablas</a></li>
+            </ul>
+      </nav>
+
+      <h2 id="tablas">Tablas</h2>
+      <table>
+            <!-- Cabezera de tabla -->
+            <thead>
+                  <!-- Crear filas -->
+                  <tr>
+                        <!-- Creacion del elemento dentro de la fila -->
+                        <th>Cabezera</th>
+                        <!-- th -- Titulos dentro de la tabla -->
+                        <th>Cabezera</th>
+                        <th>Cabezera</th>
+                        <!-- ------------------------------------------ -->
+                  </tr>
+            </thead>
+
+            <!-- Cuerpo de la tabla -->
+            <tbody>
+                  <tr>
+                        <!-- Elementos generales dentro de la tabla  -->
+                        <td>a</td>
+                        <td>b</td>
+                        <td rowspan="2">c</td><!-- rowspan -- sirve para aumentar la columna del elemento -->
+                  </tr>
+                  <tr>
+                        <td>d</td>
+                        <td>e</td>
+                        
+                  </tr>
+                  <tr>
+                        <td>g</td>
+                        <td colspan="2">h h h h h h hhhhh</td><!-- sirve para aumentar el tamaño de la fila del elemento -->
+                  </tr>
+                  <tr>
+                        <td colspan="3">iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</td>
+                  </tr>
+            </tbody>
+
+            <tfoot>
+                  <!-- Pie de tabla -->
+                  <td>Total</td>
+            </tfoot>
+      </table>
+
+      <hr>
+      
+      <table>
+            <thead>
+                  <tr>
+                        <th colspan="4">Recordings of the Sei pezzi per pianoforte</th>       
+                  </tr>
+                  <tr>
+                        <th>Year </th>
+                        <th>Pianist </th>
+                        <th>Label </th>
+                        <th>Ref</th>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr>
+                        <td>1997 </td>
+                        <td>Konstantin Scherbakov</td>
+                        <td>Naxos Records</td>
+                        <td>69</td>
+                  </tr>
+                  <tr>
+                        <td>2000</td>
+                        <td>Riccardo Sandiford </td>
+                        <td>Bongiovanni</td>
+                        <td>70</td>
+                  </tr>
+                  <tr>
+                        <td>2016</td>
+                        <td>Michele D'Ambrosio</td>
+                        <td>Brilliant Classics</td>
+                        <td>71</td>
+                  </tr>
+                  <tr>
+                        <td>2021</td>
+                        <td>2021 	Giovanna Gatto </td>
+                        <td>Toccata Classics</td>
+                        <td>72</td>
+                  </tr>
+            </tbody>
+      </table>
+
+      <hr>
+      
+      <h2>Tablas con celdas extendidas</h2>
+      <table>
+            <tbody>
+                  <tr>
+                        <td colspan="3">alfa</td>
+                        <td>bravo</td>
+                        <td rowspan="2" >charlie</td>
+                  </tr>
+                  <tr>
+                        <td>delta</td>
+                        <td colspan="1">echo</td>
+                        <td>foxtrot</td>
+                        <td>golf</td>
+                  </tr>
+                  <tr>
+                        <td>hotel</td>
+                        <td colspan="3" rowspan="2">india</td>
+                        <td>juliet</td>
+                  </tr>
+                  <tr>
+                        <td>kilo</td>
+                        <td>lima</td>
+                  </tr>
+                  <tr>
+                        <td>mike</td>
+                        <td>november</td>
+                        <td>oscar</td>
+                        <td>papa</td>
+                        <td>quebec</td>
+                  </tr>
+            </tbody>
+      </table>
+
+</body>
+
+</html>
