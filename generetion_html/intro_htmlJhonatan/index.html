@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con exploradores -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/style.css"><!-- Enlazar css -->
+    <script src="asset/js/app.js"></script><!-- Enlazar JavaScrips -->
 
     <title>Intro HTML</title>
 </head>
@@ -16,7 +17,7 @@
 
     <main>
         <!--  ----------TITULO -------- -->
-        <h1>Titulo 1</h1> <!-- Elemento de bloque -->
+        <h1 class="inicio">Titulo 1</h1> <!-- Elemento de bloque -->
         <h2>Titulo 2</h2>
         <h3>Titulo 3</h3>
         <h4>Titulo 4</h4>
@@ -34,30 +35,33 @@
         <a href="https://www.google.com/" target="black">
             <!-- El contnenido que ingresemos en la etiqueta a servira como link -->
             <img src="asset/img/mike-wazowski-con-cara-de-sullivan01578859264.jpg"   alt="momazo" width="200" height="100" >
-
+            
         </a>
+        <a href="templates/repaso.html">Repaso</a>
+        
+        
         
         <hr>
-
-
+        
+        
         <!--  Etiqueta de lista -->
         <ul type="square"> <!-- Etiqueta desordenada  -->
             <!-- type ayuda a cambiar la figura de la lista -->
             <li>link</li>
             <li>link</li>
             <li>link</li>
-
+            
             <ol>
-            <!--  -->
+                <!--  -->
                 <li>link</li>
                 <li>link</li>
-
+                
                 <ul>
-
+                    
                     <li>link</li>         
-
+                    
                 </ul>
-            <!--  -->
+                <!--  -->
             </ol>
         </ul>
         <!-- Etiqueta ordenada -->
@@ -70,42 +74,46 @@
         </ol>
 
         <hr>
-
+        
         <!-- Etiqueta de imagen  -->  <!-- Elemento en  linea -->
         <img src="https://plantillasdememes.com/img/plantillas/mike-wazowski-con-cara-de-sullivan01578859264.jpg" alt="meme mike wazouski">   <!-- scr = "enlace de imagen"  alt = "alternativa de imagen"-->
         
         <!-- Imagen desde Carpeta img -->
         <img src="asset/img/mike-wazowski-con-cara-de-sullivan01578859264.jpg" alt="momazo" width="200" height="100" > 
         <!-- width y height establecen el ancho y el alto de la imagen -->
-
+        
         <!-- ********* -->
-    <!-- Los elementos de "bloque" abarcan todo el ancho de la pagina -->
-    <!-- Los elementos en "linea" abarcan solo el espacio que ocupan -->
-
-    <!-- Un atributo HTML es un valor o propiedad que añades a una etiqueta HTML. Este otorgará una propiedad o comportamiento específico a la propia etiqueta -->
-
+        <!-- Los elementos de "bloque" abarcan todo el ancho de la pagina -->
+        <!-- Los elementos en "linea" abarcan solo el espacio que ocupan -->
+        
+        <!-- Un atributo HTML es un valor o propiedad que añades a una etiqueta HTML. Este otorgará una propiedad o comportamiento específico a la propia etiqueta -->
+        
         <!-- ********* -->
-
+        
         <!-- Etiqueta span --> <!-- Nos nirve para marcar elementos que podremos modificar con css -->
         <p><span class="textob">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Ratione sint necessitatibus eveniet voluptas rem, fugit iste, amet suscipit non fugiat eos atque dolores corrupti reiciendis laborum quos. Corrupti, molestiae quod.</p>
         <span>Span es un elemento en linea|</span>
         <span>Span es un elemento en linea|</span>
-
+        
         <hr>
-
+        
         <!-- Etiquetas div  -> etiqueta general para estructurar contenido  el html --> <!-- Elemento en bloque -->
         <div>Texto de prueba</div>
-        <div class="saludo" id="saludoId">Hola</div> <!-- Podremos asignales atributos para llamarlos des de css -->
+        <div class="saludo" id="saludoId">Hola</div> <!-- Podremos asignales atributos "clases"" para llamarlos desde css  asi tambien etiquetas atributo "id" pero solo puede haber un "id"-->
         <div class="saludo saludo2">Hola2</div>
         <img src="asset/img/mike-wazowski-con-cara-de-sullivan01578859264.jpg" alt="mike">
         
         
-
+        
     </main>
-
+    
     <footer>
-
+        <a href="#inicio">Inicio</a>
+        <a href="tel:2283433755">Telefono</a>
+        <a href="mailto:ale.andrade.rangel@gmail.com" >
+            <img src="" alt="img">   
+        </a>
     </footer>
-
+    
 </body>
 </html>
