@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="assets/css/formularios.css">
+
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!-- action -> Permite mandar los datos al un archivo -->
+
+    <!--  Metod 
+ Get -> manda la información visible 
+ post -> pasa la información en oculto 
+ -->
+
+    <form action="" method="">
+        <!-- Input text 
+
+        placeholder -> sirve de indicativo  
+        value -> asigna un valor al input "text"
+           
+        riquired -> hace que un formulario sea estricto
+        
+        size -> cambia el tamaño del la entrada de texto con medida de caracteres
+        
+        minlength -> ayuda a pedir un mimino de cantidad de caracteres
+    -->
+        <input type="text" placeholder="Nombre" size="10">
+        <input type="text" placeholder="Apellido">
+        <!-- <input type="text" minlength="8"> -->
+        <input type="text" value="xd">
+
+        <!-- Permite ingresar solo numeros 
+        
+        min -> En number requiere que se ingrese un valor minimo
+        max -> Requiere que se ingrese un valor maximo
+        step -> Especifica los pasos que se ingresar
+        con number
+    
+    -->
+        <input type="number" step="10">
+
+
+
+        <!-- input date es para ingresar fechas 
+        
+        podemos sepecificar semanas, meses, hora.
+
+        *day
+        *week
+        *month
+        *datetime-local "fecha y hora"
+        *time "hora"
+        -->
+        <input type="date">
+
+        <!-- input password se usa para ingresar contraseñas ya que sensura los caracteres -->
+        <input type="password">
+
+
+        <!-- input file para subir archivos -->
+        <input type="file">
+
+
+        <!-- input range muestra una barra modificable -->
+        <input type="range" step="10" max="50">
+
+        <!-- input checkbox cuadros de selección a los cuales le podemos asignar valores
+            
+            checked -- casilla predefinidamente llena
+        -->
+        <input type="checkbox" value="Hola" checked>
+
+        <!-- input de tipo radio boton 
+
+            name -> "solo si tienen el mismo name "permite que al tener mas de un radio boton solo e tenga una selección 
+        
+        -->
+        <input type="radio">
+        <!-- input reset limpia los datos del los input's sin manadar-->
+        <input type="reset">
+
+        <!-- input email su funcion es que se ingrese un email 
+        -->
+        <input type="email">
+        <!-- select barra menu con opciones-->
+        <select name="menu" size="1">
+            <option value="0" selected></option>
+            <option value="1">xD</option>
+            <option value="2">uwu</option>
+            <option value="3">:3</option>
+        </select>
+
+        <!-- Ingresar colores con un menu completo -->
+        <input type="color"value="#ff0000" id="inputColor" >
+
+        <!-- Cuadro para ingresar texto "como comentarios" -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <!-- input "submit" envia los dotos de los formularios
+        con value podemos cambiar el texto del boton del submit
+            
+            -->
+        <br>
+        <input type="submit" value="Mandar">
+
+
+
+    </form>
+
+    <script>                    //Por defecto busca id en el html
+        const color = document.querySelector("#inputColor")
+        console.log(color);
+
+              //escucha eventos en el html  change escucha cambios
+        color.addEventListener("change",function (e){
+//mandamos a llamar al dom en la etiqueta body aplicamos estilo desde js que va de objetivo al valor que cambia del id"inputColor"
+            document.body.style.backgroundColor = e.target.value;
+        })
+    </script>
+    
+    <br><hr>
+
+    <h1> Formulario </h1>
+    <form class="formulario">
+        <div class="nombre">
+                    <!-- For redirige al id del input -->
+            <label class="acomodoLabel" for="nombre">Nombre</label>
+            <input class="fondoColor" id="nombre" type="text" placeholder="Nombre" required>
+        </div>
+
+        <div class="apellido">
+            <label class="acomodoLabel" for="apellido">Apellido</label>
+            <input class="fondoColor" type="text" id="apellido" placeholder="Apellido">
+        </div>
+
+        <div class="password">
+            <label class="acomodoLabel" for="password">Contraseña</label>
+            <input class="fondoColor" type="password" id="password" required>
+        </div>
+
+        <div class="correo">
+            <label class="acomodoLabel" for="correo">Correo</label>
+            <input class="fondoColor" type="email" name="" id="correo">
+        </div>
+
+        <div class="enviar">
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>

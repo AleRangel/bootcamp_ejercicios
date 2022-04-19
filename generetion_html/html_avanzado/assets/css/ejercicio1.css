@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+
+table{
+    border: 1px solid black;
+}
+
+
+th{
+    width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+td{
+    width: auto;
+    
+    border: 1px solid black;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.colorRo{
+    color: red;
+}
+
+.colorxd{
+    color: #c2c2c2;
+}
+
+/* Colores de celdas */
+
+
+.colorNa{
+
+    background-color: orangered;
+}
+
+.colorNe{
+    background-color: black;
+}
+
+.colorV{
+    background-color: #7dfa34;
+}

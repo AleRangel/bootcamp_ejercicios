@@ -1,0 +1,41 @@
+body{
+    background-color: #c6d9ee;
+    
+    font-size: 1.2em;
+    
+}
+.titulos{
+    font-size: 2.5em;
+    font-family: monospace;
+}
+.container{
+    font-family: sans-serif;
+}
+
+.Com{
+    margin-left: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.naranja{
+    font-weight: bold;
+    color: #d2691e;
+    
+}
+
+.naranjaC{
+    color: #c97c45;
+    
+}
+
+.sangria{
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.verde{
+    font-style: italic;
+    color: green;
+    background-color: rgb(205, 235, 205);
+}
