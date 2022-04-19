@@ -1,14 +1,16 @@
 
-.titulo{
+.texto{
+    font-size: 1.5em;
     text-align: center;
     font-family:'Courier New' 'Courier New', Courier, monospace ;
     font-style: italic;
-    
+        
 }
 
 .container{
     margin: 30px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
     font-style: italic;
     padding-left: 5px;
     padding-top: 5px;
@@ -30,7 +32,7 @@
 .box3{
     width: 300px;
     height: 30px;
-    border-left: 5px solid #7e1e91;
+    border-left: 5px solid #ad1fba;
 }
 .box4{
     width: 300px;
