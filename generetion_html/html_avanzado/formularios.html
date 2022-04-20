@@ -18,7 +18,7 @@
  Get -> manda la información visible 
  post -> pasa la información en oculto 
  -->
-
+<!-- !Nunca olvidar el atributo name para los input ya que los necesitamos para leer `los datos del formulario -->
     <form action="" method="">
         <!-- Input text 
 
@@ -98,7 +98,7 @@
         </select>
 
         <!-- Ingresar colores con un menu completo -->
-        <input type="color"value="#ff0000" id="inputColor" >
+        <input type="color" value="#ff0000" id="inputColor">
 
         <!-- Cuadro para ingresar texto "como comentarios" -->
         <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -114,47 +114,39 @@
 
     </form>
 
-    <script>                    //Por defecto busca id en el html
-        const color = document.querySelector("#inputColor")
-        console.log(color);
 
-              //escucha eventos en el html  change escucha cambios
-        color.addEventListener("change",function (e){
-//mandamos a llamar al dom en la etiqueta body aplicamos estilo desde js que va de objetivo al valor que cambia del id"inputColor"
-            document.body.style.backgroundColor = e.target.value;
-        })
-    </script>
-    
-    <br><hr>
+
+    <br>
+    <hr>
 
     <h1> Formulario </h1>
-    <form class="formulario">
+    <form class="formulario" id="formDatos">
         <div class="nombre">
-                    <!-- For redirige al id del input -->
+            <!-- For redirige al id del input -->
             <label class="acomodoLabel" for="nombre">Nombre</label>
-            <input class="fondoColor" id="nombre" type="text" placeholder="Nombre" required>
+            <input class="inputs" id="nombre" name="nombre" type="text" placeholder="Nombre" required>
         </div>
 
         <div class="apellido">
             <label class="acomodoLabel" for="apellido">Apellido</label>
-            <input class="fondoColor" type="text" id="apellido" placeholder="Apellido">
+            <input class="inputs" type="text" id="apellido" name="apellido" placeholder="Apellido">
         </div>
 
         <div class="password">
             <label class="acomodoLabel" for="password">Contraseña</label>
-            <input class="fondoColor" type="password" id="password" required>
+            <input class="inputs" type="password" id="password" name="password" required>
         </div>
 
         <div class="correo">
             <label class="acomodoLabel" for="correo">Correo</label>
-            <input class="fondoColor" type="email" name="" id="correo">
+            <input class="inputs" type="email" name="correo id="correo">
         </div>
 
         <div class="enviar">
             <input class="btn-enviar" type="submit" value="Enviar">
         </div>
     </form>
-
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

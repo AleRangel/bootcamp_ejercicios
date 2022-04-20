@@ -1,42 +1,57 @@
 .container{
+    border: 8px solid rgb(199, 214, 252);
+    border-radius: 10px;
     background-color: green;
     padding: 30px;
+    width: 550px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .formulario{
-    padding-left: 100px;
+    padding-left: 0px;
        
     width: 400px;
     
 }
 
-.fondoColor{
+.inputs{
     
     background-color: rgb(221, 221, 221);
     border: 3px solid red;
-    
     margin: 0px 20px;
 }
-hr{
-    margin-left: 20px;
-    border: 1px dotted #ffff;
-    width: 400px;
-    margin-left: 0;
+
+
+.morado{
+    border: 3px solid rgb(143, 26, 156);
 }
 
+
+hr{
+    
+    margin: 50px 0 15px 0;  
+    border: 1px dotted #ffff ;
+    width: 180px;
+    
+} 
+
+
+
 .btn-enviar{
-    border-top: 2px double rgb(255, 255, 255);
-    padding: 10px;
-    margin-left: 50px;
+    
+    padding: 5px 10px;
+    margin-left:20px ;
 }
 
 .titulos{
     font-size: 1em;
-    padding-left: 50px;
+    margin-left: 20px;
     color: aliceblue;
 }
 
 .acomodoLabel{
+    padding-left: 50px;
     font-weight: bold;
     color: aliceblue;
     display: inline-block;

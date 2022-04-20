@@ -1,13 +1,13 @@
 .formulario{
-    border: 2px solid #686868;
+    border: 3px solid #686868;
     background-color: #b4b4b4;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 2px;
     width: 400px;
+    margin: 0 auto;
     
 }
 
-.fondoColor{
+.inputs{
     
     background-color: rgb(221, 221, 221);
     border: none;
