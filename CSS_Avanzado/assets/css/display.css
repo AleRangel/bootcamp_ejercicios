@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(145, 145, 145);
+}
+/* Cada unidad del vh es un 1% del alto de la pantalla  */
+.padre{
+    width: 80%;
+    height: 60vh; /* Responsive */
+    border: 2px solid #ff0000;
+    margin: 0 auto;
+    display: flex;/*?Activa las propiedades de --*Flexbox*-- */
+                  /* al usar flex -> ?Cambian el comportamiento de los elementos hijos */
+    /* !investigar flex */
+    /*flex-direction: row / column ; acomodo en filas */ /* column  acomodo en columnas */
+    justify-content: space-between; /* acomodo vertical */
+    align-items: center;/* acomodo horizontal */
+
+}
+
+.hijo{
+    margin: 0 20px 0 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    
+    
+}
+
+
+
+.div-1{
+ background-color: #c9c9c9;   
+}
+.div-2{
+ background-color: #696868;  
+ align-self: flex-end; 
+}
+.div-3{
+ background-color: #222121;   
+}
