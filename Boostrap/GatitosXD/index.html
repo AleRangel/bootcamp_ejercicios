@@ -20,7 +20,7 @@
 <body>
 
     <!--  ?--------------Menu------------- -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000;">
 
         <div class="container">
 
@@ -44,7 +44,7 @@
                         <a class="nav-link" href="#">Inicio </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Adopta</a>
+                        <a class="nav-link" href="#adopta">Adopta</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Memes</a>
@@ -58,7 +58,7 @@
 
         </div>
     </nav>
-    <!-- ?------------------------------------------------------ -->
+
     <!-- *------------- *Carrucel------------------------ -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -85,20 +85,114 @@
         </button>
     </div>
 
-    <div id="adopta">
+    <!-- Divisor -->
+    <div id="mensaje" class="bg-dark text-center">
         <div class="container">
             <div class="row">
-                <div class="col bg-dark text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus quam repudiandae. Aut quae unde architecto commodi nemo earum quidem non officiis culpa esse aperiam blanditiis quod quisquam, similique assumenda!</div>
-                <div class="col bg-dark text-light">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                <div class="col">
+                    <img src="https://bestanimations.com/Animals/Mammals/Cats/cats/cute-kitty-animated-gif-2.gif"
+                        alt="gif" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------Cards------------------------------------- -->
+    <div class="container mt-4">
+        <h2 class="h1 fon text-center">Imágenes</h2>
+        <div id="imagenes">
+
+            <div class="row row-cols-1 row-cols-md-2 mt-4 ">
+                <!-- card 1 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://cf.ltkcdn.net/gatos/images/std/236641-800x515r1-etapas-desarrollo-gatitos.jpg" class="card-img-top img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bolder">Pancho</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.hola.com/imagenes/mascotas/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg" class="card-img-top img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bolder">Lorenzo</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
                         </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://essentialspetcare.com/wp-content/uploads/2021/07/Untitled-60.jpg" class="card-img-top img-card" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title font-weight-bolder">Juan</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://www.ecestaticos.com/imagestatic/clipping/370/153/370153fc996e7f4a492fbfd124ba36c7/ver-videos-de-gatitos-reduce-el-estres-y-la-ansiedad.jpg?mtime=1601365026" class="card-img-top img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bolder">Filemon</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- VIdeo -->
+            <div id="video" class="bg-dark mt-4 p-5">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col">
+                            <iframe class="videoiframe" src="https://www.youtube.com/embed/ce0LPDPV5NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col text-white">
+                            <h2>Ve el video antes de adoptar</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum deserunt rem, quae obcaecati laudantium odio quaerat praesentium hic iste consequuntur, debitis nostrum magnam, ipsum non tenetur consequatur ipsa voluptatibus. A.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-------------------------------Formulario adopta----------------------- -->
+        <div id="adopta" class="mt-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Texto -->
+                    <div class="col">
+                        <h1>Adóptame</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium sed consequuntur rem sequi
+                            illo ea adipisci consequatur corporis labore exercitationem animi cum reiciendis, velit amet
+                            earum laborum nostrum natus tenetur?</p>
+                            <button type="button" class="btn btn-dark">Saber mas</button>
+                        </div>
+                        
+                        <!-- Formulario -->
+                        <div class="col bg-dark text-white p-4 rounded-lg">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                </div>
                     </div>
                     <div class="form-group">
                         <label for="inputAddress">Address</label>
@@ -134,7 +228,7 @@
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-warning">Sign in</button>
                     </form>
                 </div>
             </div>
@@ -142,9 +236,8 @@
         </div>
     </div>
     <form>
-
-
-
+        
+        
         <!-- <h1>Hello, world!</h1> -->
 
 
