@@ -28,3 +28,27 @@
     width: 100%;
     height: 300px;
 }
+
+.pantalla{
+
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    
+    background-color: rgba(0, 0, 0, 0.301);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    font-size: 1.5em;
+    /* filter: blur(3px); */
+}
+
