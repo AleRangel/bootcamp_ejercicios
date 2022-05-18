@@ -1,4 +1,4 @@
-package com.Ejercicio;
+package src.com;
 
 public class CalculadoraGeometrica {
     public static void main(String[] args){

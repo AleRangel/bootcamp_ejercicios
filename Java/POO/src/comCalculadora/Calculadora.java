@@ -1,4 +1,4 @@
-package comCalculadora;
+package src.comCalculadora;
 
 public class Calculadora {
     

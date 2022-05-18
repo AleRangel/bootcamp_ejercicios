@@ -1,4 +1,4 @@
-package comCalculadora;
+package src.comCalculadora;
 
 public class Areas {
     public void mensaje(){

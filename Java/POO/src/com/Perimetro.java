@@ -1,4 +1,4 @@
-package com.Ejercicio;
+package src.com;
 
 public class Perimetro {
 

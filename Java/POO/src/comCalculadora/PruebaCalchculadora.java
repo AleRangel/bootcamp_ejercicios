@@ -1,4 +1,4 @@
-package comCalculadora;
+package src.comCalculadora;
 
 public class PruebaCalchculadora {
     public static void main(String[] args){//Uno por proyecto
