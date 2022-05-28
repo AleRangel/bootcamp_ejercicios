@@ -1,6 +1,6 @@
 package pokemon;
 
-public class Pokemon {
+public abstract class Pokemon {
     /* Atributos */
     private int id;
     private int edad;
@@ -21,6 +21,12 @@ public class Pokemon {
     public void comer(){
         System.out.println(getNombre()+ " esta comiendo");    
     }
+    public void comer(String comida){
+        System.out.println(getNombre()+ " esta comiendo" + comida);    
+    }
+    public void comer(String comida, int cantidad){
+        System.out.println(getNombre()+ " esta comiendo " + cantidad + comida);    
+    }
 
     public void atacar(){
         System.out.println(getNombre() + " esta atacando");
@@ -29,6 +35,11 @@ public class Pokemon {
     public void dormir(){
         System.out.println("Zzzz...");
     }
+    
+    //?Metodo abstracto define que tenga una función y el hijo se encarga de determina la función
+    public abstract void saludar(String mensaje);
+    
+    
 
     public void setId(int id) {
         this.id = id;
@@ -63,4 +74,5 @@ public class Pokemon {
     public boolean getEvolucion(){
         return evolucion;
     }
+    
 }
